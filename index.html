@@ -13,7 +13,7 @@
 
 <body>
     <!-- hero section -->
-    <div class="bg-[#28293E] py-[20px] px-[80px]">
+    <div class="bg-[#28293E] py-[20px] px-[0px] sm:px-[80px]">
 
         <!-- navbar -->
         <div class="flex justify-between items-center">
@@ -31,10 +31,10 @@
         </div>
 
         <!-- hero section -->
-        <div class="flex my-[55px] items-center">
+        <div class="flex flex-col-reverse sm:flex-row my-[55px] items-center">
             <div class="flex flex-col w-1/2">
                 <a class="text-[#EF6D58] mb-4">Gabriel Pires</a>
-                <a class="text-white text-[70px] pr-[160px] font-[Epilogue]">The Simple, Clean Design</a>
+                <a class="text-white  text-[70px] pr-[160px] font-[Epilogue]">The Simple, Clean Design</a>
                 <a class="text-gray-500 text-[16px] pr-[180px] my-8">Agency provides a full service range including technical skills, design, business understanding.</a>
                 <button class="bg-[#EF6D58] text-[14px] text-bold text-white px-5 py-4 font-bold rounded-lg self-start font-[Epilogue]">SEE MY WORK</button>
             </div>
@@ -45,9 +45,9 @@
     <!-- service section -->
     <div class="bg-[#fdf0e9] flex justify-center flex-col items-center py-[50px] px-[80px]">
         <a class="text-[#EF6D58]">SERVICE</a>
-        <a class="text-[#391400] text-center text-[56px] mt-[20px] w-[500px] font-[Epilogue]">How I Can Help You With</a>
-        <div class="flex px-[20%] my-8">
-            <div class="w-1/2 border-2 border-[#F3D1BF] rounded-l-md flex flex-col p-8">
+        <a class="text-[#391400] text-center text-[40px] sm:text-[56px] mt-[20px] max-w-[500px] font-[Epilogue]">How I Can Help You With</a>
+        <div class="flex flex-col sm:flex-row px-[20%] my-8">
+            <div class="w-full sm:w-1/2 border-2 border-[#F3D1BF] rounded-l-md flex flex-col p-8">
                 <div class="flex items-center mb-4">
                     <div class="w-[60px] h-[60px] rounded-[50%] bg-[#EF6D58] mr-4 flex justify-center items-center">
                         <img src="assets/design.png" alt="tv" class="w-7 h-6">
@@ -62,7 +62,7 @@
                     <a class="text-[#391400] text-[16px]">Learn More</a>
                 </div>
             </div>
-            <div class="w-1/2 border-2 border-t-[#F3D1BF] border-b-[#F3D1BF] border-r-[#F3D1BF] border-l-transparent rounded-r-md flex flex-col p-8">
+            <div class="w-full sm:w-1/2 border-2 border-t-[#F3D1BF] border-b-[#F3D1BF] border-r-[#F3D1BF] border-l-transparent rounded-r-md flex flex-col p-8">
                 <div class="flex items-center mb-4">
                     <div class="w-[60px] h-[60px] rounded-[50%] bg-[#EF6D58] mr-4 flex justify-center items-center">
                         <img src="assets/dev.png" alt="tv" class="w-7 h-6">
@@ -84,27 +84,27 @@
 
     <!-- portfolio section -->
     <div class="bg-[#28293E] py-[80px]">
-        <div class="px-[80px]">
+        <div class="px-[20px] sm:px-[80px]">
             <a class="text-[#EF6D58] mb-4">Gabriel Pires</a>
             <div class="flex justify-between items-center mt-4">
-                <a class="text-white text-[56px] font-[Epilogue]">Latest Work</a>
+                <a class="text-white text-[40px] sm:text-[56px] font-[Epilogue]">Latest Work</a>
                 <button class="hidden md:block bg-transparent text-white px-8 py-2 border-2 border-[#777777] font-bold rounded-lg hover:bg-[#198754]">Explore More</button>
             </div>
         </div>
-        <div class="flex">
-            <div class="w-1/3 h-[600px] border-2 border-[#3a3c56] p-4">
+        <div class="flex flex-col sm:flex-row">
+            <div class="w-full sm:w-1/3 h-[600px] border-2 border-[#3a3c56] p-4">
                 <div class="bg-[url(assets/bg1.png)] bg-cover bg-no-repeat h-full p-8 flex flex-col justify-end">
                     <button class="bg-white rounded-full px-4 self-start py-2 mb-4">Design</button>
                     <a class="text-white text-[40px] font-[Epilogue]">SOFA</a>
                 </div>
             </div>
-            <div class="w-1/3 h-[600px] border-2 border-[#3a3c56] p-4">
+            <div class="w-full sm:w-1/3 h-[600px] border-2 border-[#3a3c56] p-4">
                 <div class="bg-[url(assets/pic2.png)] bg-cover bg-no-repeat h-full p-8 flex flex-col justify-end">
                     <button class="bg-white rounded-full px-4 self-start py-2 mb-4">Branding</button>
                     <a class="text-white text-[40px] font-[Epilogue]">KeyBoard</a>
                 </div>
             </div>
-            <div class="w-1/3 h-[600px] border-2 border-[#3a3c56] p-4">
+            <div class="w-full sm:w-1/3 h-[600px] border-2 border-[#3a3c56] p-4">
                 <div class="bg-[url(assets/pic3.png)] bg-cover bg-no-repeat bg-center h-full p-8 flex flex-col justify-end">
                     <button class="bg-white rounded-full py-2 px-4 mb-4 self-start">Illustration</button>
                     <a class="text-white text-[40px] font-[Epilogue]">Work Media</a>
@@ -122,7 +122,7 @@
             <div class="w-1/2">
                 <div class="flex flex-col justify-center items-start pr-[180px]">
                     <a class="text-[#EF6D58]">Gabriel Pires</a>
-                    <a class="text-black text-[56px] leading-none mt-[40px] font-[Epilogue]">Professional Web Designer</a>
+                    <a class="text-black text-[20px] sm:text-[24px] lg:text-[56px] leading-none mt-[40px] font-[Epilogue]">Professional Web Designer</a>
                     <a class="text-[#391400] text-[20px] my-[20px]">Provides a full service range</a>
                     <a class="text-[#391400A3]">Ability to put themselves in the merchant's shoes. It is meant to partner on the long run, and work as an extension of the merchant's team.</a>
                     <button class="bg-white rounded-md py-2 px-4 mb-4 shadow-lg font-[Epilogue] self-start mt-[20px]">ABOUT ME</button>
@@ -244,41 +244,52 @@
 
     <!-- FAQ Section -->
     <div class="bg-[#28293E] py-[20px]">
-        <div class="flex my-[55px] items-center">
-            <div class="flex flex-col w-1/2 justify-center p-24">
+        <div class="flex flex-col sm:flex-row my-[55px] items-center">
+            <div class="flex flex-col w-1/2 justify-center mb-12 sm:mb-0 md:p-24">
                 <a class="text-[#EF6D58] mb-4">FAQ</a>
                 <a class="text-white text-[40px]  font-[Epilogue] leading-none">Frequently Asked Questions</a>
                 <a class="text-gray-500 text-[16px] my-8">A digital agency is a business you hire to outsource your digital marketing efforts, instead of handling in-house.</a>
                 <button class="text-white self-start">Contact Me</button>
             </div>
-            <div class="w-1/2 flex flex-col justify-center items-center">
-                <details open class="border-2 border-gray-500 rounded-md border-b-0 w-[500px]">
+            <div class="w-full max-w-3xl mx-auto px-4 flex flex-col justify-center items-center">
+                <details open class="border-2 border-gray-500 rounded-md border-b-0 w-full max-w-xl">
                     <summary class="flex items-center justify-between p-4 rounded-lg cursor-pointer">
-                        <span class="text-white font-[Epilogue] text-[20px]">A digital agency is a business</span>
-                        <img src="assets/down.png" alt="check" class="w-6 h-6">
+                    <span class="text-white font-[Epilogue] text-lg sm:text-xl">A digital agency is a business</span>
+                    <img src="assets/down.png" alt="check" class="w-5 h-5 sm:w-6 sm:h-6">
                     </summary>
-                    <p class="bg-white p-4 rounded-b-md">Digital marketing efforts, instead of handling in-house. They can provide your business with a variety of digital solutions to promote your product or service online and help you hit your marketing goals and grow your business.</p>
+                    <p class="bg-white p-4 rounded-b-md text-sm sm:text-base">
+                    Digital marketing efforts, instead of handling in-house. They can provide your business with a variety of digital solutions to promote your product or service online and help you hit your marketing goals and grow your business.
+                    </p>
                 </details>
-                <details class="border-2 border-gray-500 rounded-md border-b-0 w-[500px]">
+
+                <details class="border-2 border-gray-500 rounded-md border-b-0 w-full max-w-xl mt-4">
                     <summary class="flex items-center justify-between p-4 rounded-lg cursor-pointer">
-                        <span class="text-white font-[Epilogue] text-[20px]">Hire to outsource your digital</span>
-                        <img src="assets/down.png" alt="check" class="w-6 h-6">
+                    <span class="text-white font-[Epilogue] text-lg sm:text-xl">Hire to outsource your digital</span>
+                    <img src="assets/down.png" alt="check" class="w-5 h-5 sm:w-6 sm:h-6">
                     </summary>
-                    <p class="bg-white p-4 rounded-b-md">Digital marketing efforts, instead of handling in-house. They can provide your business with a variety of digital solutions to promote your product or service online and help you hit your marketing goals and grow your business.</p>
+                    <p class="bg-white p-4 rounded-b-md text-sm sm:text-base">
+                    Digital marketing efforts, instead of handling in-house. They can provide your business with a variety of digital solutions to promote your product or service online and help you hit your marketing goals and grow your business.
+                    </p>
                 </details>
-                <details class="border-2 border-gray-500 rounded-md border-b-0 w-[500px]">
+
+                <details class="border-2 border-gray-500 rounded-md border-b-0 w-full max-w-xl mt-4">
                     <summary class="flex items-center justify-between p-4 rounded-lg cursor-pointer">
-                        <span class="text-white font-[Epilogue] text-[20px]">Marketing efforts</span>
-                        <img src="assets/down.png" alt="check" class="w-6 h-6">
+                    <span class="text-white font-[Epilogue] text-lg sm:text-xl">Marketing efforts</span>
+                    <img src="assets/down.png" alt="check" class="w-5 h-5 sm:w-6 sm:h-6">
                     </summary>
-                    <p class="bg-white p-4 rounded-b-md">Digital marketing efforts, instead of handling in-house. They can provide your business with a variety of digital solutions to promote your product or service online and help you hit your marketing goals and grow your business.</p>
+                    <p class="bg-white p-4 rounded-b-md text-sm sm:text-base">
+                    Digital marketing efforts, instead of handling in-house. They can provide your business with a variety of digital solutions to promote your product or service online and help you hit your marketing goals and grow your business.
+                    </p>
                 </details>
-                <details class="border-2 border-gray-500 rounded-md w-[500px]">
+
+                <details class="border-2 border-gray-500 rounded-md w-full max-w-xl mt-4">
                     <summary class="flex items-center justify-between p-4 rounded-lg cursor-pointer">
-                        <span class="text-white font-[Epilogue] text-[20px]">Can provide your business</span>
-                        <img src="assets/down.png" alt="check" class="w-6 h-6">
+                    <span class="text-white font-[Epilogue] text-lg sm:text-xl">Can provide your business</span>
+                    <img src="assets/down.png" alt="check" class="w-5 h-5 sm:w-6 sm:h-6">
                     </summary>
-                    <p class="bg-white p-4 rounded-b-md">Digital marketing efforts, instead of handling in-house. They can provide your business with a variety of digital solutions to promote your product or service online and help you hit your marketing goals and grow your business.</p>
+                    <p class="bg-white p-4 rounded-b-md text-sm sm:text-base">
+                    Digital marketing efforts, instead of handling in-house. They can provide your business with a variety of digital solutions to promote your product or service online and help you hit your marketing goals and grow your business.
+                    </p>
                 </details>
             </div>
         </div>
@@ -288,68 +299,129 @@
     </div>
 
     <!-- blog section -->
-    <div class="bg-[#fdf0e9] p-24">
-        <span class="text-[#EF6D58] text-[20px]">Our Blog</span>
-        <div class="flex justify-between mt-12">
-            <span class="text-[#391400] text-[50px] leading-none font-[Epilogue] w-[400px]">Latest Blog Articles</span>
-            <button class="bg-white rounded-md font-[Epilogue] shadow-lg py-2 px-4 mb-4 mt-[20px]">Discover All</button>
-        </div>
-        <div class="flex flex mt-10">
-            <div class=" flex flex-col w-2/3">
-                <img src="assets/pumpkin.png" alt="pumpkin" class="object-contain rounded-md">
-                <span class="text-[#391400] text-[20px] mt-4">Stories</span>
-                <span class="text-[#391400] text-[40px] font-[Epilogue] my-2">Agency is a business you hire to outsource</span>
-                <span class="text-gray-500">5 Nov, 2021</span>
-            </div>
-            <div class="flex flex-col pl-32 w-1/3">
-                <img src="assets/people.png" alt="people" class="object-contain rounded-md w-[80%]">
-                <span class="text-[#391400] mt-4">Stories</span>
-                <span class="text-[#391400] text-[24px] w-[260px] leading-none font-[Epilogue] my-2">Agency is a business you hire to outsource</span>
-                <span class="text-gray-500">5 Nov, 2021</span>
+    <div class="bg-[#fdf0e9] p-6 md:p-12 lg:p-24">
+    <!-- Section Title -->
+    <span class="text-[#EF6D58] text-lg md:text-xl">Our Blog</span>
 
-                <img src="assets/people.png" alt="people" class="object-contain rounded-md mt-8 w-[80%]">
-                <span class="text-[#391400] mt-4">Marketing</span>
-                <span class="text-[#391400] text-[24px] w-[260px] leading-none font-[Epilogue] my-2">Your business with a variety of digital</span>
-                <span class="text-gray-500">5 Nov, 2021</span>
-            </div>
+    <!-- Header Row -->
+    <div class="flex flex-col lg:flex-row justify-between mt-6 lg:mt-12">
+        <span class="text-[#391400] text-3xl md:text-5xl leading-none font-[Epilogue] w-full lg:w-[400px]">
+        Latest Blog Articles
+        </span>
+        <button class="bg-white rounded-md font-[Epilogue] shadow-lg py-2 px-4 mt-6 lg:mt-5 w-fit">
+        Discover All
+        </button>
+    </div>
+
+    <!-- Blog Content -->
+    <div class="flex flex-col lg:flex-row mt-10 gap-10">
+        <!-- Main Blog Post -->
+        <div class="flex flex-col w-full lg:w-2/3">
+        <div class="w-full h-[300px]">
+            <img src="assets/pumpkin.png" alt="pumpkin" class="w-full h-full object-cover rounded-md" />
         </div>
-        <hr class="border-[#F3D1BF] my-8">
-        <div class="flex justify-between items-center">
-            <div class="flex flex-col">
-                <span class="text-[#391400] text-[20px] font-[Epilogue]">Newsletter</span>
-                <span class="text-[#391400A3]">A digital agency is a business you hire to outsource</span>
+        <span class="text-[#391400] text-lg mt-4">Stories</span>
+        <span class="text-[#391400] text-2xl md:text-4xl font-[Epilogue] my-2">
+            Agency is a business you hire to outsource
+        </span>
+        <span class="text-gray-500">5 Nov, 2021</span>
+        </div>
+
+        <!-- Side Blog Posts -->
+        <div class="flex flex-col w-full lg:w-1/3 gap-10">
+        <div>
+            <div class="w-full h-[300px]">
+            <img src="assets/people.png" alt="people" class="w-full h-full object-cover rounded-md" />
             </div>
-            <div class="flex items-center">
-                <input type="email" placeholder="Your email" class="border-2 border-[#F3D1BF] rounded-md px-4 py-2 w-[300px] mr-4">
-                <button class="bg-white rounded-md font-[Epilogue] shadow-lg py-2 px-4">Subscribe</button>
+            <span class="text-[#391400] mt-4 block">Stories</span>
+            <span class="text-[#391400] text-lg md:text-xl lg:text-2xl font-[Epilogue] my-2 block">
+            Agency is a business you hire to outsource
+            </span>
+            <span class="text-gray-500">5 Nov, 2021</span>
+        </div>
+
+        <div>
+            <div class="w-full h-[300px]">
+            <img src="assets/people.png" alt="people" class="w-full h-full object-cover rounded-md" />
             </div>
+            <span class="text-[#391400] mt-4 block">Marketing</span>
+            <span class="text-[#391400] text-lg md:text-xl lg:text-2xl font-[Epilogue] my-2 block">
+            Your business with a variety of digital
+            </span>
+            <span class="text-gray-500">5 Nov, 2021</span>
+        </div>
         </div>
     </div>
 
-    <!-- Contact me page -->
-    <div class="flex p-24 bg-[#28293e]">
-        <div class="w-1/2 flex flex-col bg-white p-12 mx-24 rounded-md">
-            <a class="font-bold">Get In Touch</a>
-            <input type="email" placeholder="Email" class="border-2 border-[#F3D1BF] rounded-md px-4 py-2 w-full my-4">
-            <input type="text" placeholder="Subject" class="border-2 border-[#F3D1BF] rounded-md px-4 py-2 w-full mb-4">
-            <textarea rows="6" placeholder="Message" class="border-2 border-[#F3D1BF] rounded-md px-4 py-2 w-full mb-4"></textarea>
-            <button class="bg-[#EF6D58] text-white px-8 py-4 font-[Epilogue] self-end rounded-lg">Submit Now</button>
+    <!-- Divider -->
+    <hr class="border-[#F3D1BF] my-8" />
+
+    <!-- Newsletter -->
+    <div class="flex flex-col gap-6">
+        <div>
+        <span class="text-[#391400] text-xl font-[Epilogue] block">Newsletter</span>
+        <span class="text-[#391400A3] block mt-1">
+            A digital agency is a business you hire to outsource
+        </span>
         </div>
-        <div class="w-1/2 flex flex-col px-24 py-12">
-            <a class="text-[#EF6D58]">CONTACT</a>
-            <a class="text-white text-[40px] w-[260px] leading-none font-[Epilogue] mt-8">Contact Me</a>
-            <a class="text-gray-500 text-[16px] my-8">A digital agency is a business you hire to outsource your digital marketing efforts, instead of handling in-house.</a>
+        <div class="flex flex-col gap-4 w-full">
+        <input
+            type="email"
+            placeholder="Your email"
+            class="border-2 border-[#F3D1BF] rounded-md px-4 py-3 w-full"
+        />
+        <button class="bg-white rounded-md font-[Epilogue] shadow-lg py-3 w-full">
+            Subscribe
+        </button>
+        </div>
+    </div>
+    </div>
+
+    <!-- Contact me page -->
+    <div class="flex flex-col lg:flex-row p-6 md:p-12 lg:p-24 bg-[#28293e]">
+        <!-- Contact Form -->
+        <div class="w-full lg:w-1/2 flex flex-col bg-white p-6 md:p-8 lg:p-12 lg:mx-24 rounded-md mb-8 lg:mb-0">
+            <a class="font-bold text-xl mb-4">Get In Touch</a>
+            <input
+            type="email"
+            placeholder="Email"
+            class="border-2 border-[#F3D1BF] rounded-md px-4 py-2 w-full mb-4"
+            />
+            <input
+            type="text"
+            placeholder="Subject"
+            class="border-2 border-[#F3D1BF] rounded-md px-4 py-2 w-full mb-4"
+            />
+            <textarea
+            rows="6"
+            placeholder="Message"
+            class="border-2 border-[#F3D1BF] rounded-md px-4 py-2 w-full mb-4"
+            ></textarea>
+            <button class="bg-[#EF6D58] text-white px-6 py-3 font-semibold self-end rounded-lg">
+            Submit Now
+            </button>
+        </div>
+
+        <!-- Contact Info -->
+        <div class="w-full lg:w-1/2 flex flex-col px-4 md:px-8 lg:px-24 py-6 lg:py-12">
+            <a class="text-[#EF6D58] text-sm md:text-base">CONTACT</a>
+            <a class="text-white text-3xl md:text-4xl lg:text-[40px] w-full max-w-[260px] leading-tight font-semibold mt-4">
+            Contact Me
+            </a>
+            <a class="text-gray-500 text-sm md:text-base my-6">
+            A digital agency is a business you hire to outsource your digital marketing efforts, instead of handling in-house.
+            </a>
             <div class="flex items-center mb-4">
-                <img src="assets/red_nav_icon.png" alt="check icon" class="w-8 h-8 mr-2">
-                <a class="text-white">2247 Lunetta Street, TX 76301</a>
+            <img src="assets/red_nav_icon.png" alt="icon" class="w-6 h-6 md:w-8 md:h-8 mr-2" />
+            <a class="text-white text-sm md:text-base">2247 Lunetta Street, TX 76301</a>
             </div>
             <div class="flex items-center mb-4">
-                <img src="assets/red_call_icon.png" alt="check icon" class="w-8 h-8 mr-2">
-                <a class="text-white">+1 (234) 567-89-00</a>
+            <img src="assets/red_call_icon.png" alt="icon" class="w-6 h-6 md:w-8 md:h-8 mr-2" />
+            <a class="text-white text-sm md:text-base">+1 (234) 567-89-00</a>
             </div>
             <div class="flex items-center mb-4">
-                <img src="assets/red_email_icon.png" alt="check icon" class="w-8 h-8 mr-2">
-                <a class="text-white">info@agency.com</a>
+            <img src="assets/red_email_icon.png" alt="icon" class="w-6 h-6 md:w-8 md:h-8 mr-2" />
+            <a class="text-white text-sm md:text-base">info@agency.com</a>
             </div>
         </div>
     </div>
